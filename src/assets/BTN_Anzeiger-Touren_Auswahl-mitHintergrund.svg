@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="51" viewBox="0 0 375 51">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e1e5e9" stop-opacity="0"/>
+      <stop offset="0.399" stop-color="#e1e5e9"/>
+      <stop offset="1" stop-color="#e1e5e9"/>
+    </linearGradient>
+  </defs>
+  <g id="BTN_Touren" transform="translate(-32.035 50.868)">
+    <rect id="HG_Varlauf" width="375" height="49" transform="translate(32.035 -49.868)" fill="url(#linear-gradient)"/>
+    <rect id="HG" width="375" height="51" transform="translate(32.035 -50.868)" fill="#e1e5e9" opacity="0.6"/>
+    <g id="UI_Striche" transform="translate(31.967 -718.563)">
+      <path id="Pfad_43" data-name="Pfad 43" d="M-9907.928-15882.428h367" transform="translate(9911.996 16594.123)" fill="none" stroke="#fff" stroke-width="8" stroke-dasharray="1 25"/>
+      <path id="Pfad_44" data-name="Pfad 44" d="M-9743.114-15892.3v8" transform="translate(9930.183 16601)" fill="none" stroke="#0098a1" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

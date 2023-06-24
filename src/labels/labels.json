@@ -1,0 +1,23 @@
+[
+  { "id": "c-01", "coordinates": [3540.00000000, -1820.00000000], "content": "label.c-01", "class": "label-overlay label-overlay-1" },
+  { "id": "c-02", "coordinates": [3100.00000000, -1700.00000000], "content": "label.c-02", "class": "label-overlay label-overlay-2" },
+  { "id": "c-03", "coordinates": [3124.00000000, -1460.00000000], "content": "label.c-03", "class": "label-overlay label-overlay-3" },
+  { "id": "c-04", "coordinates": [3740.00000000, -1390.00000000], "content": "label.c-04", "class": "label-overlay label-overlay-4" },
+  { "id": "c-05", "coordinates": [3800.00000000, -2820.00000000], "content": "label.c-05", "class": "label-overlay label-overlay-5" },
+  { "id": "c-06", "coordinates": [3270.00000000, -1390.00000000], "content": "label.c-06", "class": "label-overlay label-overlay-6"},
+  { "id": "c-10", "coordinates": [3300.00000000, -1220.00000000], "content": "label.c-10", "class": "label-overlay label-overlay-10"},
+  { "id": "c-11", "coordinates": [2040.00000000, -1560.00000000], "content": "label.c-11", "class": "label-overlay label-overlay-11"},
+  { "id": "c-12", "coordinates": [3670.00000000, -2610.00000000], "content": "label.c-12", "class": "label-overlay label-overlay-12"},
+  { "id": "c-13", "coordinates": [3240.00000000, -1920.00000000], "content": "label.c-13", "class": "label-overlay label-overlay-13"},
+  { "id": "c-15", "coordinates": [3040.00000000, -1960.00000000], "content": "label.c-15", "class": "label-overlay label-overlay-15"},
+  { "id": "c-16", "coordinates": [4050.00000000, -1120.00000000], "content": "label.c-16", "class": "label-overlay label-overlay-16"},
+  { "id": "c-17", "coordinates": [3720.00000000, -1200.00000000], "content": "label.c-17", "class": "label-overlay label-overlay-17"},
+  { "id": "c-18", "coordinates": [3950.00000000, -1400.00000000], "content": "label.c-18", "class": "label-overlay label-overlay-18"},
+  { "id": "c-19", "coordinates": [3990.00000000, -3040.00000000], "content": "label.c-19", "class": "label-overlay label-overlay-19"},
+  { "id": "c-20", "coordinates": [3560.00000000, -1470.00000000], "content": "label.c-20", "class": "label-overlay label-overlay-20"},
+  { "id": "c-21", "coordinates": [4040.00000000, -2830.00000000], "content": "label.c-21", "class": "label-overlay label-overlay-21"},
+  { "id": "c-22", "coordinates": [3950.00000000, -1240.00000000], "content": "label.c-22", "class": "label-overlay label-overlay-22"},
+  { "id": "c-23", "coordinates": [3740.00000000, -1710.00000000], "content": "label.c-23", "class": "label-overlay label-overlay-23"},
+  { "id": "stadtnetz", "coordinates": [5980.00000000, -2430.00000000], "content": "label.stadtnetz", "class": "label-overlay label-overlay-19 label-netz"},
+  { "id": "windraeder", "coordinates": [5480.00000000, -3020.00000000], "content": "label.windraeder", "class": "label-overlay label-overlay-19 label-netz"}
+]

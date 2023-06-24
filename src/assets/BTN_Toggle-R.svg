@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116" height="40" viewBox="0 0 116 40">
+  <defs>
+    <filter id="HG">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.502" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="BTN_Toggle" transform="translate(33.917 29.575) rotate(180)">
+    <g data-type="innerShadowGroup">
+      <rect id="HG-2" data-name="HG" width="24" height="110" rx="12" transform="translate(-76.083 21.576) rotate(-90)" fill="#e1e5e9"/>
+      <g transform="matrix(-1, 0, 0, -1, 33.92, 29.58)" filter="url(#HG)">
+        <rect id="HG-3" data-name="HG" width="24" height="110" rx="12" transform="translate(110 8) rotate(90)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="R" transform="translate(-26.083 17.575) rotate(180)">
+      <rect id="Schatten" width="39.808" height="16" rx="8" transform="translate(4.192 0)" fill="#636363" opacity="0.5"/>
+      <rect id="Licht" width="39.417" height="14.374" rx="7.187" transform="translate(0 1.626)" fill="#fff"/>
+      <g id="BTN" transform="translate(2.396 2.225)" fill="#e1e5e9" stroke="#fff" stroke-width="1">
+        <rect width="39.417" height="11.979" rx="5.989" stroke="none"/>
+        <rect x="0.5" y="0.5" width="38.417" height="10.979" rx="5.489" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

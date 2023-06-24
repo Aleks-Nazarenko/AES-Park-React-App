@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="129" viewBox="0 0 58 129">
+  <defs>
+    <filter id="Schatten" x="0" y="0" width="58" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Licht">
+      <feOffset dx="-6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#fff" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="BTN_Zoomstuffe" transform="translate(-3708 -1282.997)">
+    <g transform="matrix(1, 0, 0, 1, 3708, 1283)" filter="url(#Schatten)">
+      <rect id="Schatten-2" data-name="Schatten" width="40" height="111" rx="20" transform="translate(9 6)" fill="#e1e5e9"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3708, 1283)" filter="url(#Licht)">
+      <path id="Licht-2" data-name="Licht" d="M20,0A20,20,0,0,1,40,20V91A20,20,0,0,1,0,91V20A20,20,0,0,1,20,0Z" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <text id="_" data-name="+" transform="translate(3728 1351.997)" fill="#0098a1" font-size="30" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-weight="700"><tspan x="0" y="31">+</tspan></text>
+    <text id="_2" data-name="–" transform="translate(3728 1298.997)" fill="#0098a1" font-size="30" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-weight="700"><tspan x="0" y="31">–</tspan></text>
+    <line id="Linie" x2="32.5" transform="translate(3721 1344.997)" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>
